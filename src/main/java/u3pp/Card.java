@@ -60,7 +60,7 @@ public class Card {
      * Sets the value of the card to a given value if it is valid
      * @param suit may be 2-10, Jack, Queen, King, or Ace
      */
-    private void setValue(String value) {
+    void setValue(String value) {
         for(int i = 0; i < VALUES.length; i++) {
             // use toLowerCase to make it case insensitive
             if (VALUES[i].toLowerCase().equals(value.toLowerCase())) { 

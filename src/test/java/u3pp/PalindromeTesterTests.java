@@ -41,7 +41,7 @@ class PalindromeTesterTests {
     @Test
     void isPalindrome_whenCalledWithAllLowerCaseLongLongPalindrome_returnsTrue() {
         String input = "abcdefghijklmnopqrstuvwxyz";
-        for(int i = 0; i < 20; i++) {
+        for(int i = 0; i < 10; i++) {
             input += input;
         }
         input += new StringBuilder(input).reverse().toString();
